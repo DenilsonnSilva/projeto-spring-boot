@@ -1,3 +1,10 @@
+package com.unicap.sin.projetoaos.controller;
+
+import com.unicap.sin.projetoaos.exception.NotFoundException;
+import com.unicap.sin.projetoaos.model.Genre;
+import com.unicap.sin.projetoaos.repository.GenreRepository;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
